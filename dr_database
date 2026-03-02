@@ -1,0 +1,12 @@
+// Static component
+function Header() {
+  return <h1>Backupta Disaster Recovery Runbook</h1>
+}
+ 
+export default async function Page() {
+  return (
+    <>
+      <Header />
+    </>
+  )
+}
